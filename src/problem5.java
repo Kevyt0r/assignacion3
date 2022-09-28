@@ -126,6 +126,6 @@ public class problem5 {
                     break; // fin del case 4
             }
         }
-        figura.close();
+        figura.close(); // fin de Scanner
     }
 }
