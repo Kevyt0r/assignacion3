@@ -6,9 +6,6 @@
 import java.util.Scanner;
 
 public class App {
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
         Scanner MayorMenor = new Scanner(System.in);
 
@@ -47,6 +44,6 @@ public class App {
         System.out.println("El numero menor es: " + menor);
         System.out.println("Su promedio es: " + promedio);
 
-        MayorMenor.close();
+        MayorMenor.close(); // fin del Scanner
     }
 }
